@@ -58,9 +58,9 @@ function App() {
     });
 
     gsap.to(".character", {
-      scale: 1.4,
+      scale: 0.7,
       x: "-50%",
-      bottom: "-25%",
+      bottom: "-55%",
       rotate: 0,
       duration: 2,
       delay: "-.8",
@@ -128,11 +128,11 @@ function App() {
             <div className="navbar absolute top-0 left-0 z-[10] w-full py-10 px-10">
               <div className="logo flex gap-7">
                 <div className="lines flex flex-col gap-[5px]">
-                  <div className="line w-15 h-2 bg-white"></div>
-                  <div className="line w-8 h-2 bg-white"></div>
-                  <div className="line w-5 h-2 bg-white"></div>
+                  <div className="line w-10 h-1 bg-white"></div>
+                  <div className="line w-6 h-1 bg-white"></div>
+                  <div className="line w-3 h-1 bg-white"></div>
                 </div>
-                <h3 className="text-4xl -mt-[8px] leading-none text-white">
+                <h3 className="text-2xl -mt-[8px] leading-none text-white">
                   Rockstar
                 </h3>
               </div>
@@ -149,10 +149,10 @@ function App() {
                 src="./bg.png"
                 alt=""
               />
-              <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
-                <h1 className="text-[12rem] leading-none -ml-40">grand</h1>
-                <h1 className="text-[12rem] leading-none ml-20">theft</h1>
-                <h1 className="text-[12rem] leading-none -ml-40">auto</h1>
+              <div className="text text-white flex flex-col gap-3 absolute top-7 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
+                <h1 className="text-[8rem] leading-none -ml-20">grand</h1>
+                <h1 className="text-[8rem] leading-none ml-20">theft</h1>
+                <h1 className="text-[8rem] leading-none -ml-20">auto</h1>
               </div>
               <img
                 className="absolute character -bottom-[150%] left-1/2 -translate-x-1/2  scale-[3] rotate-[-20deg]"
@@ -162,13 +162,13 @@ function App() {
             </div>
             <div className="btmbar text-white absolute bottom-0 left-0 w-full py-15 px-10 bg-gradient-to-t from-black to-transparent">
               <div className="flex gap-4 items-center">
-                <i className="text-4xl ri-arrow-down-line"></i>
-                <h3 className="text-xl font-[Helvetica_Now_Display]">
+                <i className="text-2xl ri-arrow-down-line"></i>
+                <h3 className="text-sm font-[Helvetica_Now_Display]">
                   Scroll Down
                 </h3>
               </div>
               <img
-                className="absolute h-[55px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                className="absolute h-[50px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                 src="./ps5.png"
                 alt=""
               />
@@ -178,35 +178,35 @@ function App() {
             <div className="cntnr flex text-white w-full h-[80%] ">
               <div className="limg relative w-1/2 h-full">
                 <img
-                  className="absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                  className="absolute scale-[0.8] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   src="./imag.png"
                   alt=""
                 />
               </div>
-              <div className="rg w-[30%] py-30">
-                <h1 className="text-8xl">Still Running,</h1>
-                <h1 className="text-8xl">Not Hunting</h1>
-                <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
+              <div className="rg w-[30%] py-8">
+                <h1 className="text-6xl">Still Running,</h1>
+                <h1 className="text-6xl">Not Hunting</h1>
+                <p className="mt-10 text-sm font-[Helvetica_Now_Display]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Distinctio possimus, asperiores nam, omnis inventore nesciunt
                   a architecto eveniet saepe, ducimus necessitatibus at
                   voluptate.
                 </p>
-                <p className="mt-3 text-xl font-[Helvetica_Now_Display]">
+                <p className="mt-3 text-sm font-[Helvetica_Now_Display]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                   eius illum fugit eligendi nesciunt quia similique velit
                   excepturi soluta tenetur illo repellat consectetur laborum
                   eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
                   autem sapiente.
                 </p>
-                <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
+                <p className="mt-10 text-sm font-[Helvetica_Now_Display]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                   eius illum fugit eligendi nesciunt quia similique velit
                   excepturi soluta tenetur illo repellat consectetur laborum
                   eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
                   autem sapiente.
                 </p>
-                <button className="bg-yellow-500 px-10 py-10 text-black mt-10 text-4xl">
+                <button className="bg-yellow-500 px-5 py-5 text-black mt-10 text-2xl">
                   Download Now
                 </button>
               </div>
